@@ -62,7 +62,11 @@ ul li a:hover {
 .cardsdetail .carddetail p {
   background-color: #ccc;
   display: none;
+  padding: 10px;
   margin-bottom: 0;
+}
+.cardsdetail .carddetail p.active {
+  display: block;
 }
 .counter {
   background-image: linear-gradient(#ff020299 0 100%),
