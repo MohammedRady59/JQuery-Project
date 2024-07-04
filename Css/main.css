@@ -1,0 +1,82 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+:root {
+  --main-color: #000;
+  --second-color: #ffffff;
+  scroll-behavior: auto;
+}
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+ul li a {
+  color: white;
+  text-decoration: none;
+}
+.home {
+  background-image: linear-gradient(rgba(255, 2, 2, 0.6) 0 100%),
+    url("../Images/home.jpg");
+  height: 80vh;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+.home h1 {
+  font-size: 3.5rem;
+}
+.home .side {
+  position: fixed;
+  z-index: 9999;
+  top: 0;
+  left: 0;
+  min-height: 100vh;
+  display: flex;
+}
+.side .toogle {
+  align-content: center;
+  cursor: pointer;
+}
+
+.exit {
+  cursor: pointer;
+  transition: all 0.2s;
+}
+.exit:hover,
+ul li a:hover {
+  color: rgb(255, 192, 203);
+}
+.side .links {
+  background-color: #000;
+  display: none;
+  flex-direction: column;
+}
+
+.cardsdetail .carddetail h2 {
+  background-color: rgb(214 46 51 / 60%);
+  margin: 0;
+}
+.cardsdetail .carddetail p {
+  background-color: #ccc;
+  display: none;
+  margin-bottom: 0;
+}
+.counter {
+  background-image: linear-gradient(#ff020299 0 100%),
+    url("../Images/invitation-2508607__340.jpg");
+  background-size: cover;
+  height: 40vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-position: center;
+}
+
+.icons div:hover {
+  background-color: #ff020299;
+  color: white;
+  cursor: pointer;
+}
